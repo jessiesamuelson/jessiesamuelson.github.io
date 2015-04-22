@@ -92,6 +92,12 @@ p {
   #index-banner .section {
     top: 0;
   }
+  h1 {
+    font-size: 1.8em;
+  }
+  .projects {
+    font-size: 1.7em;
+  }
 }
 
 
