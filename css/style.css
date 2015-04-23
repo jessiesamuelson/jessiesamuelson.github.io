@@ -168,9 +168,9 @@ p {
     font-size: 1.7em;
   }
   .image img {
-    width: 95%;
+    width: 75%;
     height: auto;
-    padding: 5%;
+    padding: 1% 5%;
     margin: 0 auto;
     float: none;
   }
