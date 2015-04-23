@@ -71,10 +71,41 @@ p {
   line-height: 2.25rem;
   margin: 0.82rem 0 0.656rem 0; 
 }
+/*  Image Styling */
+.image img{
+  display: block;
+  height: 200px;
+  float: left;
+}
 
-.reverse {
-  direction: rtl;
-  unicode-bidi: bidi-override;
+.imagebox {
+  margin: 0 auto;
+  padding: 25px 0px;
+}
+
+.imagebox1 {
+  width: 950px;
+}
+
+.imagebox2 {
+  width: 989px;
+}
+
+.imagebox3 {
+  width: 852px;
+}
+
+.imagebox:after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.imagebox h3 {
+  text-align: center;
+  color: #aa2327;
 }
 
 @media only screen and (max-width : 992px) {
@@ -85,6 +116,44 @@ p {
   #index-banner .section {
     top: 10%;
     height: 400px;
+  }
+  .imagebox {
+    width: auto;
+  }
+  .group {
+    padding-bottom: 25px;
+  }
+  .group1 {
+    width: 450px;
+    padding-top: 25px;
+    margin: 0 auto;
+  }
+  .group2 {
+    width: 500px;
+    margin: 0 auto;
+  }
+  .group3 {
+    width: 523px;
+    margin: 0 auto;
+  }
+  .group4 {
+    width: 466px;
+    margin: 0 auto;
+  }
+  .group5 {
+    width: 418px;
+    margin: 0 auto;
+  }
+  .group6 {
+    width: 434px;
+    margin: 0 auto;
+  }
+  .group:after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
   }
 }
 
@@ -97,6 +166,13 @@ p {
   }
   .projects {
     font-size: 1.7em;
+  }
+  .image img {
+    width: 95%;
+    height: auto;
+    padding: 5%;
+    margin: 0 auto;
+    float: none;
   }
 }
 
